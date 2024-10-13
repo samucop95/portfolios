@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="/resources/IMG_1165.png" type="image/png" class="miniatura">
+</head>
+<body>
+    <header class="fixednav">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/biografia.html">Biografía</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="undernav">
+        <h1 class="titulo-centrado">Contacto</h1>
+        <figure>
+            <img src="/resources/IMG_1166.jpg" alt="Imagen de perfil" class="imagen-perfil">
+        </figure>
+        <article>
+            <p>¿Hay algo que no funciona bien? ¿Te ha gustado tanto mi primera página web 
+            que quieres felicitarme o incluso contratarme? ¡Cualquier excusa es buena 
+            para escribirme! Rellena el siguiente formulario si quieres ponerte en 
+            contacto conmigo por el motivo que sea :)</p>
+        </article>
+        <form action="" method="">
+            <fieldset>
+                <label for="nombre">Nombre</label>
+                <input name="nombre" id="inputNombre" type="text">
+                <label for="email">Email</label>
+                <input name="email" id="inputEmail" type="email">
+                <div class="motivo-container">
+                    <label for="motivo">Motivo</label>
+                        <select name="motivo1" id="motivo">
+                            <option value="opciones">Selecciona una opción</option>
+                            <option value="piropo">Piropos</option>
+                            <option value="piropo">Contrataciones</option>
+                            <option value="otro">Otros</option>
+                        </select>
+                </div>
+                <label for="motivo2"></label>
+                <textarea name="motivo2" id="motivo2" placeholder="¡No te cortes, escribe sin miedo!" rows="5" col="5"></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button> 
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Samuel Correia.</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
